@@ -1,0 +1,9 @@
+import axios from 'axios';
+import { URLSearchParams } from 'url';
+
+async function getVideoInfo() {
+	const response = await axios.get(`https://www.youtube.com/get_video_info?video_id=${videoId}&el=embedded&eurl=${eurl}&sts=18333`);
+	const parsedResponse = Object.fromEntries(new URLSearchParams(response.data));
+}
+
+getVideoInfo();
