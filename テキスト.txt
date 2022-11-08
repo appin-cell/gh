@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>注意</title>
+  </head>
+  <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
+  <body bgcolor="aqua" text="white">
+    <h1 class="blink"><center>あなたのデバイスはウイルスに感染しています。</center></h1>
+    <p class="nones" id="devicename"></p>
+    <p class="null">すぐに対応する必要があります。専用のソフト・アプリをインストールしてウイルスを除去してください。<p>
+    <p class="null">nortonをダウンロードしてあなたのpcを保護しましょう</p>
+    <center><input type="button" class="button" id="button1" value="いますぐ除去" style="width:300px"></input>
+    <br>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bG4Mrzx7BLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </body>
+</html>
